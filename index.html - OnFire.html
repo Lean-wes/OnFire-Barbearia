@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia On Fire - Vacaria</title>
+    <meta name="description" content="Barbearia On Fire em Vacaria - Cortes modernos, barba profissional e atendimento de qualidade. Rua Brudemburgo, 116, Santa Terezinha.">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="emailjs-config.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-circle">
+                    <span class="logo-text">ON<br>FIRE</span>
+                </div>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Início</a>
+                <a href="#about" class="nav-link">Sobre</a>
+                <a href="#services" class="nav-link">Serviços</a>
+                <a href="#gallery" class="nav-link">Galeria</a>
+                <a href="#contact" class="nav-link">Contato</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="logo-main">
+                <div class="logo-circle-large">
+                    <span class="logo-text-large">ON<br>FIRE</span>
+                </div>
+            </div>
+            <h1 class="hero-title">BARBEARIA ON FIRE</h1>
+            <p class="hero-subtitle">A barbearia que está ON FIRE</p>
+            <p class="hero-description">Cortes modernos, barba profissional e atendimento de qualidade em Vacaria</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Ver Serviços</a>
+                <a href="#contact" class="btn btn-secondary">Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre Nós</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Barbearia On Fire</h3>
+                    <p>Desde 2022, a Barbearia On Fire tem se destacado em Vacaria oferecendo serviços de barbearia de alta qualidade. Nossa equipe de profissionais experientes está sempre atualizada com as últimas tendências em cortes masculinos e cuidados com a barba.</p>
+                    <p>Localizada no coração de Santa Terezinha, nossa barbearia oferece um ambiente moderno e acolhedor, onde cada cliente recebe atenção personalizada e sai com um visual impecável.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-cut"></i>
+                            <span>Cortes Modernos</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-user-tie"></i>
+                            <span>Profissionais Qualificados</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Atendimento por Ordem de Chegada</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://pixabay.com/get/gfc936ff96cf00f7695a21bf919667697ef7e4223213bee493b798d77b1222c8c2f63fa90982027ce9ca381c6cca795a350754eba41a5a2a7217e17ab82f70406_1280.jpg" alt="Interior da Barbearia On Fire" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <!-- Individual Services -->
+            <div class="services-section">
+                <h3 class="services-subtitle">Serviços Individuais</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cut"></i>
+                        </div>
+                        <h4>Corte Masculino</h4>
+                        <p>Cortes modernos e clássicos adaptados ao seu estilo</p>
+                        <div class="service-price">R$ 35,00</div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h4>Barba na Navalha</h4>
+                        <p>Aparar e modelar a barba com técnicas tradicionais</p>
+                        <div class="service-price">R$ 35,00</div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h4>Sobrancelha</h4>
+                        <p>Design e aparar sobrancelhas masculinas</p>
+                        <div class="service-price">R$ 15,00</div>
+                    </div>
+                    <div class="service-card featured">
+                        <div class="service-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <h4>Combo Corte + Barba</h4>
+                        <p>Pacote completo com corte e barba</p>
+                        <div class="service-price">R$ 60,00</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Monthly Packages -->
+            <div class="services-section">
+                <h3 class="services-subtitle">Pacotes Mensais</h3>
+                <p class="package-description">Corte toda semana e pague um valor fixo por mês - economize e mantenha uma boa aparência o ano todo!</p>
+                <div class="packages-grid">
+                    <div class="package-card">
+                        <h4>Cabelo</h4>
+                        <div class="package-price">R$ 100,00<span>/mês</span></div>
+                        <p>Cortes ilimitados durante o mês</p>
+                    </div>
+                    <div class="package-card">
+                        <h4>Barba</h4>
+                        <div class="package-price">R$ 100,00<span>/mês</span></div>
+                        <p>Barba ilimitada durante o mês</p>
+                    </div>
+                    <div class="package-card featured">
+                        <h4>Cabelo + Barba</h4>
+                        <div class="package-price">R$ 120,00<span>/mês</span></div>
+                        <p>Pacote completo ilimitado</p>
+                        <div class="package-badge">Mais Popular</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Horários de Funcionamento</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="schedule-content">
+                <div class="schedule-card">
+                    <div class="schedule-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="schedule-info">
+                        <h3>Segunda à Sexta</h3>
+                        <p>9h às 11:30 - 14h às 19h</p>
+                    </div>
+                </div>
+                <div class="schedule-card">
+                    <div class="schedule-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="schedule-info">
+                        <h3>Sábados</h3>
+                        <p>9h às 11:30 - 14h às 17h</p>
+                    </div>
+                </div>
+                <div class="schedule-card">
+                    <div class="schedule-icon">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                    <div class="schedule-info">
+                        <h3>Domingos</h3>
+                        <p>Fechado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="schedule-note">
+                <p><i class="fas fa-info-circle"></i> Atendimento por ordem de chegada</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeria</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://pixabay.com/get/g4d348a7b8e086a9e4ef6f1777ed9de861cd82f2fbe71efe04d7bd7833ecc4df99869a7ff84d70e3c5a9f3d339d79a9d56f967fafef522bbef6b807f7264250b4_1280.jpg" alt="Corte moderno">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://pixabay.com/get/g7933b7d9f185e2dd1b9aa13f745ab3c6ff477ee7f421409e62dac50d1c2fd9f83571b879ba27c5764e383505dd57e9217731f3e5b1a8c7bfee5503690e298a5b_1280.jpg" alt="Ferramentas profissionais">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://pixabay.com/get/gc8eb0441a0dff87729aa8393798f0a28a5650ecc2f190ad3be875fb34e677bcc05ae6da854fd0e6aca6ef5cfeaad043151075600255a6403ee5bbe86c2d7f36d_1280.jpg" alt="Interior da barbearia">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://pixabay.com/get/g2098058cdf26c407559883a6f9e9cde85e0fb96c8a4abcf3fdab01c4ff4364bdd25fd83baec0888877b1c5bfa8a4025da65033c103c85629a54ca92150e8aab4_1280.jpg" alt="Corte estiloso">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://pixabay.com/get/g018869b7327232c5daaafea7ca4ec3d26b16dc1c589606f5b31cb47f164b5023c072cf62f846565913ecef9edfcbb88fa17ab39a359e5388e036aa01e534b1f4_1280.jpg" alt="Equipamentos modernos">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://pixabay.com/get/gb3851fa128b42f82e4b8a0a2a283a7c5b86b19f2a32656cbe806ab410482f5e284dbf78b857095368d11a2f4123dcb579909e07ffead7aabe6cf2acdd06c434e_1280.jpg" alt="Resultado profissional">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contato</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Endereço</h4>
+                            <p>Rua Brudemburgo, 116<br>Santa Terezinha, Vacaria<br>95201028</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Instagram</h4>
+                            <p><a href="https://instagram.com/barbeariaonfire" target="_blank">@barbeariaonfire</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Horário</h4>
+                            <p>Segunda à Sexta: 9h-11:30 / 14h-19h<br>Sábado: 9h-11:30 / 14h-17h<br>Domingo: Fechado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Seu email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Seu telefone">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-circle">
+                        <span class="logo-text">ON<br>FIRE</span>
+                    </div>
+                    <p>Barbearia On Fire</p>
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2024 Barbearia On Fire. Todos os direitos reservados.</p>
+                    <p>Desenvolvido para oferecer a melhor experiência em barbearia.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://instagram.com/barbeariaonfire" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
